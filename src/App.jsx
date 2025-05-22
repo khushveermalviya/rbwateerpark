@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Star, MapPin, Phone, Mail, Clock, Calendar, Users, Waves, Camera, Gift, Menu, X, ChevronLeft, ChevronRight } from 'lucide-react';
-import RenderHome from './Components/renderHome';
+import RenderHome from"./Components/RenderHome.jsx"
 
 const App = () => {
   const [activeSection, setActiveSection] = useState('home');
